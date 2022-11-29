@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700&display=swap');
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: #f66;
+}
+
+.App {
+  text-align: center;
+}
+
+.ReactTable {
+  border: 1px solid #fff;
+}
+
+.ReactTable .rt-tbody .rt-tr-group,
+.ReactTable .rt-thead.-filters {
+  border-bottom-color: rgba(255, 255, 255, 0.4);
+}
+
+.ReactTable .rt-tbody .rt-td {
+  border-right-color: rgba(255, 255, 255, 0.4);
+}
+
+.ReactTable .-pagination {
+  border-top-color: rgba(255, 255, 255, 0.4);
+}
+
+.ReactTable .-pagination .-btn {
+  color: #fff;
+}
